@@ -1,0 +1,54 @@
+
+
+Signup button:
+ positive scenario:
+1)valid mobile number
+2)Passwords & confirms password match success
+3)Strong password with uppercase,number,special char accepted.
+
+Negative scenario:
+1)invalid email show validation error
+2)Already registered email shoe user already exixts
+3)Wrong OTP show invalid OTP.
+
+CANCLE BUTTON:
+Positive Scenario:
+1)Click cancel ->form closes or navigates back to previous page
+2)Click cancel->All entered data is cleared reset
+3)Cancel button is clickable and visible
+4)Cancel button works without errors.
+
+Negative Scenario:
+1)cancel button not working on click
+2)cancel does not clear data properly
+3)cancel button missing on form
+4)slow response after clicking cancel.
+
+FORGOT PASSWORD:
+Positive Scenario:
+1)Entered registered email/mobile->reset link and sent OTP
+2)Reset link works within valid time
+3)Proper success message displayed
+4)Back to login link works.
+
+Negative Scenario:
+1)Enter unregistered email/mobile show error
+2)Invalid email format show validation error
+3)Wrong OTP "Invalid OTP" message
+4)Expired OTP show OTP expired.
+
+HELP BUTTON:
+Positive Scenario:
+1)Click help->opens help page/section
+2)Help content is relevant and understandable
+3)Help open in correct format
+4)Help button is visible and clickable.
+
+Negative Scenario:
+1)Click help nothing happens
+2)Help page show error /blank page
+3)Help button not visible or disable
+4)slow loadind or timeout
+5)Help opens wrong page
+
+ 
